@@ -11,6 +11,9 @@ export class Conta {
     constructor(nome) {
         this.nome = nome;
     }
+    getTitular() {
+        return this.nome;
+    }
     getGruposTransacoes() {
         const gruposTransacoes = [];
         const listaTransacoes = structuredClone(this.transacoes);
