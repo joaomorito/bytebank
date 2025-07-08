@@ -1,6 +1,6 @@
-import { GrupoTransacao } from "./GrupoTransacao";
-import { TipoTransacao } from "./TipoTransacao";
-import { Transacao } from "./Transacao"
+import { GrupoTransacao } from "./GrupoTransacao.js";
+import { TipoTransacao } from "./TipoTransacao.js";
+import { Transacao } from "./Transacao.js"
 
 export class Conta {
     nome: string
